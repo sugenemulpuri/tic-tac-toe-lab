@@ -1,0 +1,31 @@
+.sqr {
+    width: 75px;
+    height: 75px;
+    border: 2px solid;
+    border-color: #1a2351;
+    box-shadow: 0 0 0 4px;
+    line-height: 75px;
+    font-size: 50px;
+    cursor: pointer;
+    background-color: #3899b4;
+  
+  }
+  #encapsulation{
+    font-family: "Georgia";
+    text-align: center;
+    
+  }
+  .board{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    width: 225px;
+    margin: auto;
+  }
+  #restart {
+    display: block;
+    margin: auto;
+    border-radius: 20px;
+    font-size: 18px;
+    padding: 5px 15px;
+    cursor: pointer;
+  }
